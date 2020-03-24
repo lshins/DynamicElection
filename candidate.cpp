@@ -26,7 +26,7 @@ double candidate::returnPercent()
 	return percent;
 }
 
-void candidate::calcPercent(int vT)
+void candidate::calcPercent(double vT)
 {
 	percent = (static_cast <double> (votes) / static_cast <double> (vT)) * 100;
 }

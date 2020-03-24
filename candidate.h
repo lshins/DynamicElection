@@ -18,7 +18,7 @@ public:
 	void printName();
 	int returnVotes();
 	double returnPercent();
-	void calcPercent(int);
+	void calcPercent(double);
 	void setInfo();
 	candidate();
 	~candidate();

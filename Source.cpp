@@ -23,7 +23,7 @@ int main()
 		cout << endl;
 		cin.ignore(1000, '\n');
 		candidate* runners = new candidate[n];
-		int votesTotal = 0;
+		double votesTotal = 0;
 		for (int i = 0; i < n; i++)
 		{
 			cout << "Candidate #" << i + 1 << endl << endl;
